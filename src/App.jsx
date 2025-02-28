@@ -5,6 +5,7 @@ import ExpenseTracking from "./Components/ExpenseTracking";
 import FeatureCards from "./Components/Cards";
 import InvestmentCard from "./Components/Assets";
 import FAQSection from "./Components/FaqSection";
+import Testimonials from "./Components/Testimonials";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <FeatureCards />
       <InvestmentCard />
       <FAQSection />
+      <Testimonials />
     </div>
   )
 }
