@@ -3,6 +3,7 @@ import FintechUI from "./Components/Section1";
 import Collaborations from "./Components/Collaborations";
 import ExpenseTracking from "./Components/ExpenseTracking";
 import FeatureCards from "./Components/Cards";
+import InvestmentCard from "./Components/Assets";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Collaborations />
       <ExpenseTracking />
       <FeatureCards />
+      <InvestmentCard />
     </div>
   )
 }
