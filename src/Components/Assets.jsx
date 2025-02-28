@@ -8,7 +8,7 @@ const InvestmentCard = () => {
                                                   <img
                                                             src="/svgs/NewGraph.svg"
                                                             alt="Investment Graph"
-                                                            className="w-[90%] h-auto max-h-[85%] sm:w-[95%] sm:max-h-[75%]"
+                                                            className="w-[100%] h-[100%] max-h-[95%] sm:w-[95%] sm:max-h-[75%]"
                                                   />
                                         </div>
                               </div>

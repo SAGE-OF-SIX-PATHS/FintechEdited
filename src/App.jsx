@@ -4,6 +4,7 @@ import Collaborations from "./Components/Collaborations";
 import ExpenseTracking from "./Components/ExpenseTracking";
 import FeatureCards from "./Components/Cards";
 import InvestmentCard from "./Components/Assets";
+import FAQSection from "./Components/FaqSection";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ExpenseTracking />
       <FeatureCards />
       <InvestmentCard />
+      <FAQSection />
     </div>
   )
 }
