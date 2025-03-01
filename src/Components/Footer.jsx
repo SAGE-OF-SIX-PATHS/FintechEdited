@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import {} from "lucide-react"
 
 const Footer = () => {
           return (
@@ -47,9 +48,9 @@ const Footer = () => {
                               <div className="flex justify-between items-center mt-6 text-sm opacity-80 sm:flex-col sm:gap-4">
                                         <p className="whitespace-nowrap">© 2024 PennyWise. All Rights Reserved</p>
                                         <div className="flex gap-5 text-xl">
-                                                  <FaFacebookF className="cursor-pointer hover:scale-110 transition-transform" />
-                                                  <FaInstagram className="cursor-pointer hover:scale-110 transition-transform " />
-                                                  <FaTwitter className="cursor-pointer hover:scale-110 transition-transform sm: hidden" />
+                                                  <img src="svgs/facebook.png" alt="" srcset="" className="h-5 w-5 rounded ml-2 mt-3"/>
+                                                  {/* <img src="svgs/Instagram.png" alt="" srcset="" className="h-5 w-5 rounded ml-0 mt-3"/>
+                                                  <img src="svgs/Twitter.png" alt="" srcset="" className="h-5 w-5 rounded ml-6 mt-3"/> */}
                                         </div>
                               </div>
 
