@@ -6,6 +6,7 @@ import FeatureCards from "./Components/Cards";
 import InvestmentCard from "./Components/Assets";
 import FAQSection from "./Components/FaqSection";
 import Testimonials from "./Components/Testimonials";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <InvestmentCard />
       <FAQSection />
       <Testimonials />
+      <Footer />
     </div>
   )
 }
