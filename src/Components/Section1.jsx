@@ -36,7 +36,7 @@ const FintechUI = () => {
                                         </div>
 
                                         {/* Chart Section */}
-                                        <div className="w-full flex justify-center">
+                                        <div className="w-full flex justify-center mt-20">
                                                   <img src="/svgs/chartOne.svg" alt="Chart" className="w-full max-w-lg mt-20 sm:mt-1" />
                                         </div>
                               </div>
